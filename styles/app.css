@@ -1,0 +1,49 @@
+:root {
+  --bs-blue: #037bc0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+@media (min-widht: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+/* Text colors */
+
+.text-primary,
+.website-name {
+  color: var(--bs-blue) !important;
+}
+
+.hero {
+  background-image: url(../img/principal.jpg);
+  height: 28rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-widht: 768px) {
+  .hero {
+    height: 550px;
+  }
+}
