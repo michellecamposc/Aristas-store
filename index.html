@@ -4,11 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommerce</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <title>Furniture store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/app.css" />
   </head>
   <body>
+    <header class="py-5">
+      <h1 class="text-center">
+        Furniture <span class="text-primary">store</span>
+      </h1>
+    </header>
+
+    <div class="border-top py-4">
+      <section class="navbar navbar-expand-lg container navbar-light">
+        <a
+          href="index.html"
+          class="navbar-brand website-name d-lg-none fs-2 fw-bold"
+          >FURNITURE STORE</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navigation" class="collapse navbar-collapse">
+          <nav
+            class="navbar-nav container d-flex flex-md-row justify-content-md-between text-center"
+          >
+            <a class="text-dark text-decoration-none" href="#">Home</a>
+            <a class="text-dark text-decoration-none" href="#">About us</a>
+            <a class="text-dark text-decoration-none" href="#">Store</a>
+            <a class="text-dark text-decoration-none" href="#">Blog</a>
+            <a class="text-dark text-decoration-none" href="#">Galery</a>
+            <a class="text-dark text-decoration-none" href="#">Contact</a>
+          </nav>
+        </div>
+      </section>
+    </div>
+
+    <section class="hero"></section>
+
     <script src="javascript/bootstrap.bundle.min.js"></script>
   </body>
 </html>
