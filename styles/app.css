@@ -1,5 +1,7 @@
 :root {
-  --bs-blue: #037bc0;
+  /* --bs-blue: #037bc0;*/
+  --bs-blue: #4e89ab;
+  --bs-green: #b3da3fd1;
 }
 
 html {
@@ -21,10 +23,27 @@ h3 {
 h1 {
   font-size: 3.8rem;
 }
-
 @media (min-widht: 768px) {
   h1 {
     font-size: 5rem;
+  }
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+@media (min-widht: 768px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+@media (min-widht: 768px) {
+  h3 {
+    font-size: 3rem;
   }
 }
 
@@ -33,6 +52,14 @@ h1 {
 .text-primary,
 .website-name {
   color: var(--bs-blue) !important;
+}
+
+.btn-success {
+  background-color: var(--bs-green) !important;
+}
+
+.bg-primary {
+  background-color: var(--bs-blue) !important;
 }
 
 .hero {
@@ -45,5 +72,14 @@ h1 {
 @media (min-widht: 768px) {
   .hero {
     height: 550px;
+  }
+}
+
+/*Products card*/
+@media (min-widht: 768px) {
+  .products img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
   }
 }
