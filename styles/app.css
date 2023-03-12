@@ -58,7 +58,8 @@ h3 {
   background-color: var(--bs-green) !important;
 }
 
-.bg-primary {
+.bg-primary,
+.btn-primary {
   background-color: var(--bs-blue) !important;
 }
 
@@ -97,4 +98,13 @@ h3 {
 /*galery section*/
 .galery li {
   margin-bottom: 2rem;
+}
+
+/*contact section*/
+
+/*form styles*/
+
+.form-control {
+  padding: 1rem;
+  font-size: 1.6rem;
 }
