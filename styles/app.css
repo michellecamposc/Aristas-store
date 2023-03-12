@@ -93,3 +93,8 @@ h3 {
 .category img:hover {
   transform: scale(1.2);
 }
+
+/*galery section*/
+.galery li {
+  margin-bottom: 2rem;
+}
