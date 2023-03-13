@@ -5,4 +5,3 @@ This is an online furniture store that contains different sections of interest f
 https://aristas-store.vercel.app
 
 
-
